@@ -1,9 +1,9 @@
 ---
 layout: featured
-title: Themes & plugins
-icon: /assets/img/icons/address-card-solid.svg
-image: /assets/img/services/05.jpg
-description: Features & plugins parturient denouncing pleasure and praising pain was born and I will give you a complete.
+title: Partnerships
+icon: /assets/img/icons/american-sign-language-interpreting-solid.svg
+image: /assets/img/services/02.jpg
+description: NGOs, universities, tech companies and governments are working with us.
 ---
 
 <div class="row">
@@ -21,7 +21,7 @@ description: Features & plugins parturient denouncing pleasure and praising pain
 <div class="row">
     <div class="col-xl-6 col-lg-12">
         <div class="s-details-img mb-30">
-            <img src="{{site.baseurl}}/assets/img/service/5.jpg" alt="{{page.title}}">
+            <img src="{{site.baseurl}}/assets/img/service/2.jpg" alt="{{page.title}}">
         </div>
     </div>
     <div class="col-xl-6 col-lg-12">

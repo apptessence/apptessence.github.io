@@ -1,9 +1,9 @@
 ---
 layout: featured
-title: Designs & interfaces
+title: Tech Education
 image: /assets/img/services/01.jpg
 icon: /assets/img/icons/layer-group-solid.svg
-description: But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete.
+description: Promising teams go to bootcamp to learn how to talk tech.
 ---
 
 <div class="row">
