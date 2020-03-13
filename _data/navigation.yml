@@ -2,14 +2,14 @@
 
 - text: Home
   url: /
-  submenu:
-  - text: Home 2
-    url: /pages/index-2
-  - text: Home 3
-    url: /pages/index-3
+  # submenu:
+  # - text: Home 2
+  #   url: /pages/index-2
+  # - text: Home 3
+  #   url: /pages/index-3
 - text: About
   url: /pages/about
-- text: Blog
+- text: Context
   url: /pages/blog
 - text: Services
   url: /pages/services
