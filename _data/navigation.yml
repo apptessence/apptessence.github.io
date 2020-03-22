@@ -16,19 +16,19 @@
 - text: Pages
   url: /
   submenu:
-  - text: Services
-    url: /pages/services
-  - text: Service Details
-    url: /pages/services-details
-  - text: Portfolio
-    url: /pages/portfolio   
-  - text: Portfolio Details
-    url: /pages/portfolio-details 
-  - text: About Us
-    url: /pages/about
+  - text: Ecosystem
+    url: /pages/ecosystem
+  # - text: Service Details
+  #   url: /pages/services-details
+  - text: Onboarding & Upskilling
+    url: /pages/upskilling   
+  - text: Incubation
+    url: /pages/incubator 
+  - text: Blockchain Identity
+    url: /pages/blockchain
   - text: Contact
     url: /pages/contact
-  - text: 404
+  - text: Cambodia
     url: /pages/404
 - text: Contact
   url: /pages/contact
