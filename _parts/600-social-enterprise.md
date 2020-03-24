@@ -1,7 +1,7 @@
 ---
 layout: featured
 title: Social Enterprise
-icon: /assets/img/icons/address-card-solid.svg
+icon: /assets/img/ecosystem/enterprise.svg
 image: /assets/img/services/05.jpg
 description: Business validation means profits remain in communities, and provide return to investors.
 ---

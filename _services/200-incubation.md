@@ -1,8 +1,8 @@
 ---
 layout: featured
 title: Tech Incubation
-image: /assets/img/services/01.jpg
-icon: /assets/img/icons/layer-group-solid.svg
+image: /assets/img/ecosystem/01.jpg
+icon: /assets/img/ecosystem/incubation.svg
 description: We're changing the village economy's relationship to tech through a comprehensive program of discovery, education and incubation for the world' digitally disenfranchised.
 ---
 

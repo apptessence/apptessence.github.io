@@ -2,7 +2,7 @@
 layout: featured
 title: Tech Education
 image: /assets/img/services/01.jpg
-icon: /assets/img/icons/layer-group-solid.svg
+icon: /assets/img/ecosystem/teched.svg
 description: Promising teams go to bootcamp to learn how to talk tech.
 ---
 

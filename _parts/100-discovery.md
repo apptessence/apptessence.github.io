@@ -1,7 +1,7 @@
 ---
 layout: featured
 title: Discovery
-icon: /assets/img/icons/ambulance-solid.svg
+icon: /assets/img/ecosystem/discovery.svg
 image: /assets/img/services/03.jpg
 description: Start with the village; we workshop to surface nascent digital business ideas.
 ---

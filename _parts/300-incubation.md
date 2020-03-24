@@ -1,7 +1,7 @@
 ---
 layout: featured
 title: Incubation
-icon: /assets/img/icons/algolia-brands.svg
+icon: /assets/img/ecosystem/incubation.svg
 image: /assets/img/services/02.jpg
 description: Build prototypes and MVPs, with a fully provisioned team supplied.
 ---

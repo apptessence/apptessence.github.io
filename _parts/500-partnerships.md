@@ -1,7 +1,7 @@
 ---
 layout: featured
 title: Partnerships
-icon: /assets/img/icons/american-sign-language-interpreting-solid.svg
+icon: /assets/img/ecosystem/partnerships.svg
 image: /assets/img/services/02.jpg
 description: NGOs, universities, tech companies and governments are working with us.
 ---

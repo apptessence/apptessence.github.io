@@ -1,7 +1,7 @@
 ---
 layout: featured
 title: Blockchain
-icon: /assets/img/icons/air-freshener-solid.svg
+icon: /assets/img/ecosystem/blockchain.svg
 image: /assets/img/services/03.jpg
 description: MVPs are built on a hypersecure Digital Identity Gateway platform.
 ---
