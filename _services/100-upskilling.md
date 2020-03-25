@@ -1,6 +1,6 @@
 ---
 layout: featured
-title: Upskilling/Onboarding
+title: Onboarding/Upskilling
 icon: /assets/img/ecosystem/combined.svg
 image: /assets/img/services/03.jpg
 description: We help companies improve the quality of their coding teams through intense, short-term mentor based training. Instead of hiring, maximize the hires you have.

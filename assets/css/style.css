@@ -1401,6 +1401,13 @@ label {
 	display: flex;
 	align-items: center;
 }
+.breadcrumb-area.tall {
+	min-height:400px;
+	background-color: #222;
+	background-repeat: no-repeat;
+	background-size: 90%;
+}
+
 .breadcrumb {
 	display: -webkit-box;
 	display: -ms-flexbox;
