@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-{% include header.html %}
-<main> 
-<!-- breadcrumb-area -->
+
+
+ <main> 
 <section class="breadcrumb-area grey-bg {% if page.image %} tall {% endif %}" style="background-image:url(
     {% if page.image %}
         {{ page.image }}
@@ -11,24 +11,33 @@ layout: default
         {{site.cover_image}}
     {% endif %}) ">
     <div class="container">
+    <div class="row" >
+            <div class="logo col-6" style="margin-top: 20px">
+                <a href="{{site.url}}"><img src="{{site.logo}}" class="img-fluid" alt="{{site.title}}"></a>
+            </div>
+        </div>
+
         <div class="row align-items-center">
             <div class="col-xl-8 col-md-6">
                 <div class="breadcrumb-title sm-size">
-                    <h2>{{page.title}}</h2>
+
+                    <h2> <span>{{page.title}}</span></h2>
                 </div>
             </div>
             <div class="col-xl-4 col-md-6 text-left text-md-right">
                 <div class="breadcrumb">
                     <ul>
+                        <span class="box">
                         <li><a href="{{site.url}}">Home</a></li>
                         <li class="text-white pl-1">Pages /</li>
                         <li class="text-white pl-1">{{page.title}}</li>
+                        </span>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
+{% include header.html %}
 {{content}}
 </main>

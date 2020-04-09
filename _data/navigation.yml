@@ -16,8 +16,6 @@
 - text: Pages
   url: /
   submenu:
-  - text: Ecosystem
-    url: /pages/ecosystem
   # - text: Service Details
   #   url: /pages/services-details
   - text: Onboarding & Upskilling
@@ -26,9 +24,9 @@
     url: /pages/incubator 
   - text: Blockchain Identity
     url: /pages/blockchain
+  - text: Ecosystem
+    url: /pages/ecosystem
   - text: Contact
     url: /pages/contact
-  - text: Cambodia
-    url: /pages/404
 - text: Contact
   url: /pages/contact
