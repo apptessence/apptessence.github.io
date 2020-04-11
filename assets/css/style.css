@@ -101,7 +101,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Noto Sans', sans-serif;
 	font-weight: normal;
 	color: #000;
 	margin-top: 0px;
@@ -1425,7 +1425,9 @@ label {
 	text-transform: uppercase;
 	font-weight: 600;
 	color: #000;
-	background-color: rgba(255, 255, 255, 0.5)
+	background-color: rgba(255, 255, 255, 0.5);
+	padding-left:10px;
+	border:1px solid #ccc;
 }
 
 .breadcrumb .box {
