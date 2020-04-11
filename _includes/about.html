@@ -3,6 +3,20 @@
 <section class="about-area pb-60 pt-100">
     <div class="container">
         <div class="row">
+            {% if page.home == true %}
+            <!-- THIS IS THE HOME PAGE VERSION -->
+            <div class="col-xl-6 col-lg-6 mb-40">
+                <div class="section-title">
+                    <h2>Our Founding Story</h2>
+                </div>
+                <div class="about-content">
+                    <p>More than twenty five years ago in the mid 1990's, I was teaching tech courses in Computer Graphics in Toronto, Canada. I liked it, but my real interest was in the Web, which was growing rapidly. But in the colleges and universities, no courses, or very primitive instruction on how to use a browser was almost all there was.</p>
+                    <p>I worked with a private company to develop a comprehensive Web instruction course, and soon the Canadian Government kickstarted our initial course into full 14-week, intensive and comprehensive Webmaster course. Most significantly, it allowed me to teach my students what interested me most: programming computers to do amazing things on the web.</p>
+                    <p>In everything but name, we'd created the technology bootcamp, focused on bringing newbies, with no previous contact with computers, into the world of full-on web development. Others may have done the same; but I and my team had funding, an eager audience, but no reference points directing us to how anyone could be helped to use the web as a creative programming environment.</p>
+                </div>
+            </div>
+            {% else %}
+            <!-- THIS IS THE SATELLITE PAGE VERSION -->
             <div class="col-xl-6 col-lg-6 mb-40">
                 <div class="section-title">
                     <h2>Our Mission</h2>
@@ -14,23 +28,31 @@
                      <br>We're dedicated to researching, prototyping, and implementing solutions at the world's digital divide. Based in South East Asia, where digital disenfranchisement sits side by side with some of the fastest growing IT cultures, we're working with universities, NGOs, private enterprise and government to build a path to digital inclusion that the region – and the world's – digitally excluded can use to take digital control of their lives.</p>
                 </div>
             </div>
+            {% endif %}
             <div class="col-xl-6 col-lg-6 mb-20 md-margin">
                 <div class="row">
-                   <!--  <div class="col-xl-6 col-md-6 mb-20">
-                        <div class="about-img">
-                            <img src="{{site.baseurl}}/assets/img/about/about1.jpg" class="img-fluid" alt="">
-                        </div>
-                    </div> -->
+<!-- MISSION IMAGE -->
                     <div class="col-xl-12 col-md-12 mb-20">
                         <div class="about-img">
                             <div style="position:absolute;" >hello</div>
                             <img src="{{site.baseurl}}/assets/img/about/about2.jpg" class="img-fluid" alt="">
+                            {% if page.home == true %}
+                            <!-- THIS IS THE HOME PAGE VERSION -->
+                            <p>
+                                That early experience has led directly to my company's work: a project that starts with three current needs: onboarding, upskilling, and bridging skills gaps. All of this starts with what a quarter century has taught me about tech education. But where it goes is a project to seriously examine how the same process of tech empowerment can help village communities around the world's emerging economies to control tech, and build the tech future they want and need.
+                            </p>
+                            <p style="text-align: right; font-weight: bold;"> Dan Donaldson, Founder <span style="color:red; padding-left: 8px">Learn More</span></p>
+                            {% else %}
+                            <!-- THIS IS THE SATELLITE PAGE VERSION -->
+                                other words
+                            {% endif %}
 
                         </div>
                     </div>
+<!-- MISSION IMAGE END -->
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- ABOUT INCLUDE END -->
+<!-- ABOUT INCLUDE END
