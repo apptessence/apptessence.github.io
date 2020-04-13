@@ -839,6 +839,11 @@ label {
 .services-box:hover .services-img img{
 	transform: scale(1.2);
 }
+
+.section-icon {
+	margin: 10px;
+}
+
 .card-title h5 {
 	margin-bottom: 15px;
 	font-weight: 600;
