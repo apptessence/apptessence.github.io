@@ -108,6 +108,7 @@ h6 {
 	font-family: 'Noto Sans', sans-serif;
 	font-weight: normal;
 	color: #000;
+	color: rgb(70, 152, 57);
 	margin-top: 0px;
 	font-style: normal;
 	font-weight: 400;
@@ -778,7 +779,7 @@ label {
 	padding: 50px 30px;
 }
 .features-wrap:hover {
-	background-image: url(../img/about/5.jpg);
+	background-image: url(../img/about/5b.png);
 	background-size: cover;
 	background-position: center center;
 	background-attachment: local;
@@ -1424,12 +1425,14 @@ label {
 	background-color: none;
 	border-radius: 0;
 }
+
 .breadcrumb-title h2 {
 	margin: 0;
 	text-transform: uppercase;
 	font-weight: 600;
 	color: #000;
-	background-color: rgba(255, 255, 255, 0.5);
+	color: rgb(255, 255, 255);
+	background-color: rgba(135, 164, 134, 0.6);
 	padding-left:10px;
 	border:1px solid #ccc;
 }
