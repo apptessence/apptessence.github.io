@@ -1414,6 +1414,7 @@ label {
 	background-position: center;
 	height: 300px;
 	display: flex;
+	background-position: 100% 120%
 	/*align-items: center;*/
 }
 .breadcrumb-area.tall {

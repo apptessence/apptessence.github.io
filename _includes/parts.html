@@ -21,7 +21,9 @@
                     {% endif %}
                     <h4>{{part.title}}</h4>
                     <p>{{part.description}}</p>
-                    <a href="{{part.url}}">Read More</a>
+                    {% if (part.url) %}
+                    <!-- <a href="{{part.url}}">Read More</a> -->
+                    {% endif %}
                 </div>
             </div>
             {% endfor %}

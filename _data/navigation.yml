@@ -20,12 +20,12 @@
   #   url: /pages/services-details
   - text: Onboarding & Upskilling
     url: /pages/upskilling   
-  - text: Incubation
-    url: /pages/incubator 
-  - text: Blockchain Identity
-    url: /pages/blockchain
   - text: Ecosystem
     url: /pages/ecosystem
+  - text: Blockchain Identity
+    url: /pages/blockchain
+  - text: Incubator
+    url: /pages/incubator 
   - text: Contact
     url: /pages/contact
 - text: Contact
