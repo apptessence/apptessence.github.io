@@ -144,6 +144,7 @@ blockquote {
 
 
 
+
 }
 
 
@@ -276,7 +277,10 @@ blockquote {
 	width: 100%;
 }
 
-
+.breadcrumb-area.tall {
+	background-size: 140%;
+	background-position: 70% 100%
+}
 
 
 
