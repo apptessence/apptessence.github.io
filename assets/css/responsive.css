@@ -50,6 +50,9 @@ blockquote {
 	padding: 0 148px;
 }
 
+.boxtext {
+	font-size: 1.6vw;
+}
 
 
 
@@ -142,6 +145,13 @@ blockquote {
 	position: static;
 }
 
+.boxtext {
+	font-size: 2.4vw;
+}
+
+}
+
+@media (max-width: 1250px) {
 
 
 
@@ -280,6 +290,10 @@ blockquote {
 .breadcrumb-area.tall {
 	background-size: 140%;
 	background-position: 70% 100%
+}
+
+.boxtext {
+	font-size: 3vw;
 }
 
 
