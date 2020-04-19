@@ -11,6 +11,18 @@
 
 }
 
+@media (min-width: 1000px) {
+
+.boxtext {
+	font-size: 24px;
+}
+
+
+
+
+
+}
+
 /* LG Device :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
 

@@ -56,13 +56,14 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="{{site.baseurl}}/assets/js/vendor/jquery-1.12.4.min.js"></script>
+    // <script src="{{site.baseurl}}/assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="{{site.baseurl}}/assets/js/popper.min.js"></script>
     <script src="{{site.baseurl}}/assets/js/bootstrap.min.js"></script>
     <script src="{{site.baseurl}}/assets/js/slick.min.js"></script>
     <script src="{{site.baseurl}}/assets/js/isotope.pkgd.min.js"></script>
     <script src="{{site.baseurl}}/assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="{{site.baseurl}}/assets/js/jquery.waypoints.min.js"></script>
+    <script src="{{site.baseurl}}/assets/js/jquery.waypoints.js"></script>
     <script src="{{site.baseurl}}/assets/js/jquery.counterup.min.js"></script>
     <script src="{{site.baseurl}}/assets/js/owl.carousel.min.js"></script>
     <script src="{{site.baseurl}}/assets/js/jquery.meanmenu.min.js"></script>
@@ -70,6 +71,46 @@
     <script src="{{site.baseurl}}/assets/js/scrollup.min.js"></script>
     <script src="{{site.baseurl}}/assets/js/simple-jekyll-search.min.js"></script>
     <script src="{{site.baseurl}}/assets/js/main.js"></script>
+
+
+    <script type="text/javascript">
+        $.fn.serializeObject = function()
+        {
+           var o = {};
+           var a = this.serializeArray();
+           $.each(a, function() {
+               if (o[this.name]) {
+                   if (!o[this.name].push) {
+                       o[this.name] = [o[this.name]];
+                   }
+                   o[this.name].push(this.value || '');
+               } else {
+                   o[this.name] = this.value || '';
+               }
+           });
+           return o;
+        };
+
+
+        var $form = $('form#contact-form'),
+            url = 'https://script.google.com/macros/s/AKfycbwBKvDXQKE30NDUnk_yMjDrRGLMP4MGuSSwWnEbpgQO-k5Qgm4/exec'
+
+        $('#submit-form').on('click', function(e) {
+          e.preventDefault();
+
+          var jqxhr = $.ajax({
+            url: url,
+            method: "GET",
+            dataType: "json",
+            data: $form.serializeObject()
+          }).success(
+            alert("your message was sent, thank you.")
+          );
+        })
+
+
+</script>
+
 </body>
 
 </html>
